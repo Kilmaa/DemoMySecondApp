@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_marginStart="2"
+    android:layout_marginLeft="2"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -53,19 +55,18 @@
         android:orientation="horizontal">
 
         <Button
-            android:id="@+id/button"
-            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/button3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_marginEnd="2"
+            android:layout_marginRight="2"
             android:text="@string/button1" />
 
         <Button
-            android:id="@+id/button2"
-            style="@style/Widget.AppCompat.Button"
+            android:id="@+id/button4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_margin="2"
             android:text="@string/button2" />
     </LinearLayout>
 
